@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/pokeball.png">
     <title>Pokedex</title>
 </head>
 <body>
     
+    <main>
+        <img src="" class="pokemon__image" alt="Pokemon">
+
+        <form class="form">
+            <input 
+              type="search"
+              class="input__search"
+              placeholder="Name or Number"
+              required
+            />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">&lt; Prev</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number">6 -</span>
+            <span class="pokemon__name">charizard</span>
+        </h1>
+
+        <img src="img/pokedex.png" class="pokedex" alt="Pokedex">
+    </main>
+
     <script src="js/script.js"></script>
 </body>
 </html>
